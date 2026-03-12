@@ -1,0 +1,14 @@
+[project]
+name = "orchestrator-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "a2a-sdk>=0.3.24",
+    "google-adk>=1.26.0",
+    "httpx>=0.28.1",
+    "python-dotenv>=1.2.2",
+    "pyyaml>=6.0.3",
+    "uvicorn>=0.41.0",
+]
